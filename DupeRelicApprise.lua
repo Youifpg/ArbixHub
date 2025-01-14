@@ -47,6 +47,26 @@ AddTextLabel(Main, "This is TOUKA x UGPHONE script if you want inf money farm fo
 AddTextLabel(Main, "discord : https://discord.gg/VRHYbyj8Dy")
 
 local Main = MakeTab({Name = "SERVERS"})
+
 local section = AddSection(Main, {"press button to find old server"})
+
+AddButton(Main, {
+  Name = "Hop old servers",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Spectrum-Trash/Addons/refs/heads/main/FindServer.lua"))()
+  end
+})
 local Main = MakeTab({Name = "MONEY"})
+
 local section = AddSection(Main, {"DUPE"})
+
+AddButton(Main, {
+  Name = "GET MONEY (PRESS 3 TIMES)",
+  Callback = function()
+  local replicated_storage = game:GetService("ReplicatedStorage");
+
+game:GetService("RunService").RenderStepped:Connect(function()
+    replicated_storage.packages.Net["RE/DailyReward/Claim"]:FireServer();
+end)
+  end
+})
