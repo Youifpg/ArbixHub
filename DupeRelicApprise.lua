@@ -20,11 +20,6 @@ MakeWindow({
   }
 })
 
-MakeNotifi({
-  Title = "ARBIX HUB",
-  Text = "JOIN OUR DISCORD",
-  Time = 5
-})
 
 MinimizeButton({
   Image = "rbxassetid://126511980185658",
@@ -34,7 +29,17 @@ MinimizeButton({
   Stroke = true,
   StrokeColor = Color3.fromRGB(255, 0, 0)
 })
-AddTextLabel(Main, "AutoFarm")
+
+MakeNotifi({
+  Title = "ARBIX HUB",
+  Text = "JOIN OUR DISCORD",
+  Time = 5
+})
+
+local Main = MakeTab({Name = "INFO"})
+
+AddTextLabel(Main, "This is TOUKA x UGPHONE script if you want inf money farm for 24/7 offline go discord")
+AddTextLabel(Main, "discord : https://discord.gg/VRHYbyj8Dy")
 local Main = MakeTab({Name = "SERVERS"})
 local section = AddSection(Main, {"press button to find old server"})
 local Main = MakeTab({Name = "MONEY"})
