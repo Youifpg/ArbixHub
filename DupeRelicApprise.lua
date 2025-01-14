@@ -35,17 +35,7 @@ MinimizeButton({
   StrokeColor = Color3.fromRGB(255, 0, 0)
 })
 
-local Main = MakeTab({Name = "Main"})
-
-local section = AddSection(Main, {"OP THINGS"})
-
-
-
-
-
-
-workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
-workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
-workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
-workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
-workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
+local Main = MakeTab({Name = "SERVERS"})
+local section = AddSection(Main, {"press button to find old server"})
+local Main = MakeTab({Name = "MONEY"})
+local section = AddSection(Main, {"DUPE"})
