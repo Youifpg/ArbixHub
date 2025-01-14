@@ -6,11 +6,11 @@ MakeWindow({
     Animation = "by : TOUKA"
   },
   Key = {
-    KeySystem = false,
-    Title = "Key System",
-    Description = "",
-    KeyLink = "",
-    Keys = {"1234"},
+    KeySystem = true,
+    Title = "ARBIX | KEY",
+    Description = "key is : TOUKA x UGPHONE",
+    KeyLink = "https://pastebin.com/raw/42434df8",
+    Keys = {"TOUKA x UGPHONE"},
     Notifi = {
       Notifications = true,
       CorrectKey = "Running the Script...",
@@ -20,6 +20,11 @@ MakeWindow({
   }
 })
 
+MakeNotifi({
+  Title = "ARBIX HUB",
+  Text = "JOIN OUR DISCORD",
+  Time = 5
+})
 
 MinimizeButton({
   Image = "",
@@ -32,15 +37,7 @@ MinimizeButton({
 
 local Main = MakeTab({Name = "Main"})
 
-
-
-MakeNotifi({
-  Title = "ARBIX HUB",
-  Text = "JOIN OUR TELEGRAM",
-  Time = 5
-})
-
-local section = AddSection(Main, {"Dupe"})
+local section = AddSection(Main, {"OP THINGS"})
 
 
 
