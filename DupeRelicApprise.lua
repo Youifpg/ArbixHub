@@ -34,7 +34,7 @@ MinimizeButton({
   Stroke = true,
   StrokeColor = Color3.fromRGB(255, 0, 0)
 })
-
+AddTextLabel(Main, "AutoFarm")
 local Main = MakeTab({Name = "SERVERS"})
 local section = AddSection(Main, {"press button to find old server"})
 local Main = MakeTab({Name = "MONEY"})
