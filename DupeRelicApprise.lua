@@ -27,7 +27,7 @@ MakeNotifi({
 })
 
 MinimizeButton({
-  Image = "",
+  Image = "rbxassetid://126511980185658",
   Size = {40, 40},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
